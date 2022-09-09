@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/wp6144190 1.png") no-repeat center center / cover;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 10px 30px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+header nav {
+    padding-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+header .headerH3 {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 900;
+    width: 604px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+header .text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    width: 590px;
+    color: #FFFCFC;
+    margin-top: 79px;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background: #F1E7E7;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.card {
+    height: 355.31px;
+    width: 333.41px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.pt-129px {
+    padding-top: 129px;
+}
+
+.Hello {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: left;
+    margin-top: 196.68px;
+}
+
+.sectionText {
+    margin-top: 100px;
+
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.newCard {
+    width: 680px;
+    height: 600px;
+    margin-top: 250px;
+}
+
+.newCard img {
+    width: 100%;
+}
